@@ -18,7 +18,7 @@ namespace COMP003B.Assignment2
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            // adds middleware for displaying a welcome page
+            // adds middleware for displaying a welcome page when nvigating to /Welcome
             app.UseWelcomePage("/Welcome");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
